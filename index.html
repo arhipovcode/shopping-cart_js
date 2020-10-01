@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Корзина</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container wrapper">
+      <div class="header-label logo">
+        Магазин на диване
+      </div>
+      <div class="mail">
+        <a href="mailto:arhipovma@yandex.ru" class="mail__link">
+            arhipovma@yandex.ru
+        </a>
+      </div>
+      <div class="header-basket">
+        <button class="header-basket-btn">
+          Корзина
+        </button>
+        <div class="basket-empty">
+          <p>Корзина пуста. Добавьте товар</p>
+        </div>
+        <div class="basket">
+          <div class="basket-head">
+            <div class="basket-head_number">№</div>
+            <div class="basket-head_id">ID Товара</div>
+            <div class="basket-head_name">Наименование</div>
+            <div class="basket-head_quantity">Количество</div>
+            <div class="basket-head_price">Цена</div>
+          </div>
+          <div class="basket-product"></div>
+          <div class="total">
+            <p>Итого: <span></span> &#8381;</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main class="main">
+    <div class="container">
+      <div class="main-product"></div>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-label logo">
+        Магазин на диване
+      </div>
+    </div>
+  </footer>
+  
+  <script src="js/products.js"></script>
+  <script src="js/basket.js"></script>
+</body>
+</html>
